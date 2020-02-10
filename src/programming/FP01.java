@@ -12,6 +12,7 @@ public class FP01 {
 //        printAllNumbersInList(list);
 //        printAllEvenNumbersInList(list);
         printSquaresOfEvenNumbers(nums);
+        courses.replaceAll(String::toUpperCase);
         courses.stream().map(String::length).forEach(System.out::println);
     }
 
